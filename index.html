@@ -13,12 +13,19 @@
   </head>
   <body>
     <div class="container">
+      <!-- Banner -->
       <div class="image-container">
         <img src="pancake.jpeg" alt="Delicious pancakes" />
         <div class="price-banner"><span id="totalPrice">$5</span></div>
       </div>
+      <!-- Customization -->
       <div class="form-container">
         <h2>Customize Your Pancake</h2>
+        <!-- Customer Information -->
+        <div class="customer-section">
+          <label for="customerName">Customer Name:</label>
+          <input type="text" id="customerName" placeholder="Enter your name" />
+        </div>
         <!-- Pancake types -->
         <div class="customization-section">
           <label for="type">Choose your pancake type:</label>
@@ -42,9 +49,23 @@
           $2<br />
           <input type="checkbox" id="iceCream" value="3" />Ice Cream - $3<br />
         </div>
+        <!-- Delivery Options -->
+        <div class="customization-section">
+          <p>Select Delivery Method:</p>
+          <input type="radio" id="eatIn" name="delivery" value="0" checked />Eat
+          In<br />
+          <input type="radio" id="pickUp" name="delivery" value="0" />Pick Up<br />
+          <input type="radio" id="delivery" name="delivery" value="5" />Delivery
+          (+$5)<br />
+        </div>
+        <!-- Price Display -->
         <div class="price-display">
           <h3>Total Price: <span id="finalPrice">$5</span></h3>
         </div>
+        <!-- See order -->
+        <button id="seeOrder">See Order</button>
+        <!-- Order Summary -->
+        <div id="orderSummary"></div>
       </div>
     </div>
     <script src="script.js"></script>

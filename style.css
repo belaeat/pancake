@@ -35,6 +35,23 @@ body {
   padding: 20px;
 }
 
+.customer-section {
+  margin-bottom: 20px;
+}
+
+#customerName {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#seeOrder {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #5a4a42;
+  color: #fff8f0;
+  font-weight: bold;
+}
+
 .price-banner {
   position: absolute;
   top: 20px;
