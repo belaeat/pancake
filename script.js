@@ -1,3 +1,5 @@
+"use strict";
+
 function calculateTotal() {
   const pancakeType = document.getElementById("type");
   const basePrice = parseInt(pancakeType.value);

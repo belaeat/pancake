@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-color: #fff8f0;
   color: #5a4a42;
   display: flex;
@@ -11,7 +11,7 @@ body {
 
 .container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   width: 80%;
 }
@@ -24,7 +24,9 @@ body {
 .image-container img {
   width: 100%;
   max-width: 400px;
-  border-radius: 20px;
+  height: 100vh;
+  object-fit: cover;
+  /* border-radius: 20px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
